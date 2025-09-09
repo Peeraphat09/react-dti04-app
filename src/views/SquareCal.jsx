@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function SquareCal() {
   return (
     <div>
-      <NavBar /> <HeaderCal titleName="Square Calculator" imgName={square} />
+      <NavBar /> <HeaderCal titleName="Square Calculator" imgName={square} titleColor="purple" />
       <Footer emoji="🎪" />
     </div>
   );

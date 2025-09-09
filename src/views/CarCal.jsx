@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function CarCal() {
   return (
     <>
-      <NavBar /> <HeaderCal titleName="Car Calculator" imgName={car} />
+      <NavBar /> <HeaderCal titleName="Car Calculator" imgName={car} titleColor="blue" />
       <Footer emoji="😎" />
     </>
   );
